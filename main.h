@@ -1,7 +1,8 @@
-#ifndef _HEADER_/** can we change to MAIN_H?*/
-#define _HEADER_
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>/** for pointer 's' in _printf */
 
 int _printf(const char *format, ...);
 
